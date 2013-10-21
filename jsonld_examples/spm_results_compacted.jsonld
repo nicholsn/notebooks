@@ -1,0 +1,336 @@
+{
+  "@context": {
+    "spm": "http://www.fil.ion.ucl.ac.uk/spm/",
+    "nlx": "http://neurolex.org/wiki/Main_Page/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "hadMember": {
+      "@id": "http://www.w3.org/ns/prov#hadMember",
+      "@type": "@id"
+    },
+    "wasDerivedFrom": {
+      "@id": "http://www.w3.org/ns/prov#wasDerivedFrom",
+      "@type": "@id"
+    }
+  },
+  "@graph": [{
+    "@id": "spm:peak_9",
+    "@type": ["nlx:z-statistic", "nlx:peak-level", "prov:Entity"],
+    "prov:label": "peak_level_Z",
+    "prov:value": 3.33
+  }, {
+    "@id": "spm:set_level_c_0",
+    "@type": ["spm:set-level", "nlx:cluster", "prov:Entity"],
+    "prov:label": "set_level_c",
+    "prov:value": 7,
+    "wasDerivedFrom": "spm:coord_0"
+  }, {
+    "@id": "spm:peak_15",
+    "@type": ["nlx:p-value", "nlx:uncorrected_p-value", "prov:Entity"],
+    "prov:label": "peak_level_Uncorr_p",
+    "prov:value": 0
+  }, {
+    "@id": "spm:extent_threshold_param2",
+    "@type": ["nlx:p-value", "prov:Entity", "spm:extent_threshold", "nlx:uncorrected_statistic"],
+    "prov:label": "Extent_Threshold",
+    "prov:value": 1
+  }, {
+    "@id": "spm:peak_0",
+    "@type": ["nlx:uncorrected_p-value", "prov:Entity", "nlx:p-value"],
+    "prov:label": "peak_level_Uncorr_p",
+    "prov:value": 0
+  }, {
+    "@id": "spm:peak_1",
+    "@type": ["prov:Entity", "nlx:p-value", "nlx:FWE"],
+    "prov:label": "peak_level_FWEcorr_p",
+    "prov:value": 0.728,
+    "wasDerivedFrom": "spm:coord_0"
+  }, {
+    "@id": "spm:peak_2",
+    "@type": ["prov:Entity", "nlx:p-value", "nlx:FDR"],
+    "prov:label": "peak_level_FDRcorr_p",
+    "prov:value": 0.464,
+    "wasDerivedFrom": "spm:coord_0"
+  }, {
+    "@id": "spm:peak_3",
+    "@type": ["nlx:peak-level", "nlx:t-statistic", "prov:Entity"],
+    "prov:label": "peak_level_T",
+    "prov:value": 3.8
+  }, {
+    "@id": "spm:peak_4",
+    "@type": ["prov:Entity", "nlx:peak-level", "nlx:z-statistic"],
+    "prov:label": "peak_level_Z",
+    "prov:value": 3.79
+  }, {
+    "@id": "spm:peak_5",
+    "@type": ["prov:Entity", "nlx:p-value", "nlx:uncorrected_p-value"],
+    "prov:label": "peak_level_Uncorr_p",
+    "prov:value": 0
+  }, {
+    "@id": "spm:peak_6",
+    "@type": ["prov:Entity", "nlx:FWE", "nlx:p-value"],
+    "prov:label": "peak_level_FWEcorr_p",
+    "prov:value": 0.994,
+    "wasDerivedFrom": "spm:coord_1"
+  }, {
+    "@id": "spm:peak_7",
+    "@type": ["nlx:FDR", "prov:Entity", "nlx:p-value"],
+    "prov:label": "peak_level_FDRcorr_p",
+    "prov:value": 0.904,
+    "wasDerivedFrom": "spm:coord_1"
+  }, {
+    "@id": "spm:peak_8",
+    "@type": ["nlx:peak-level", "prov:Entity", "nlx:t-statistic"],
+    "prov:label": "peak_level_T",
+    "prov:value": 3.34
+  }, {
+    "@id": "spm:spm_results_metadata",
+    "@type": ["spm:spm_results_metadata", "prov:Entity", "prov:Collection"],
+    "hadMember": ["spm:extent_threshold_collection", "spm:expected_voxels", "spm:height_threshold_collection", "spm:expected_clusters"]
+  }, {
+    "@id": "spm:cluster_3",
+    "@type": ["prov:Entity", "nlx:cluster-level", "nlx:VolumeInVoxels"],
+    "prov:label": "cluster_level_Ke",
+    "prov:value": "[]",
+    "wasDerivedFrom": "spm:coord_1"
+  }, {
+    "@id": "spm:peak_level_stats",
+    "@type": ["spm:peak-level", "prov:Entity", "prov:Collection"],
+    "hadMember": ["spm:peak_5", "spm:peak_21", "spm:peak_0", "spm:peak_3", "spm:peak_22", "spm:peak_2", "spm:peak_13", "spm:peak_4", "spm:peak_6", "spm:peak_12", "spm:peak_9", "spm:peak_24", "spm:peak_8", "spm:peak_11", "spm:peak_20", "spm:peak_10", "spm:peak_16", "spm:peak_14", "spm:peak_17", "spm:peak_15", "spm:peak_7", "spm:peak_18", "spm:peak_23", "spm:peak_1", "spm:peak_19"]
+  }, {
+    "@id": "spm:peak_16",
+    "@type": ["nlx:p-value", "nlx:FWE", "prov:Entity"],
+    "prov:label": "peak_level_FWEcorr_p",
+    "prov:value": 0.994,
+    "wasDerivedFrom": "spm:coord_3"
+  }, {
+    "@id": "spm:cluster_12",
+    "@type": ["prov:Entity", "nlx:cluster-level", "nlx:VolumeInVoxels"],
+    "prov:label": "cluster_level_Ke",
+    "prov:value": 12,
+    "wasDerivedFrom": "spm:coord_4"
+  }, {
+    "@id": "spm:cluster_13",
+    "@type": ["prov:Entity", "nlx:p-value", "nlx:uncorrected_p-value"],
+    "prov:label": "cluster_level_Uncorr_p",
+    "prov:value": 0.663,
+    "wasDerivedFrom": "spm:coord_4"
+  }, {
+    "@id": "spm:cluster_10",
+    "@type": ["prov:Entity", "nlx:p-value", "nlx:uncorrected_p-value"],
+    "prov:label": "cluster_level_Uncorr_p",
+    "prov:value": "[]",
+    "wasDerivedFrom": "spm:coord_3"
+  }, {
+    "@id": "spm:cluster_11",
+    "@type": ["prov:Entity", "nlx:p-value", "nlx:FWE"],
+    "prov:label": "cluster_level_FWEcorr_p",
+    "prov:value": "[]",
+    "wasDerivedFrom": "spm:coord_3"
+  }, {
+    "@id": "spm:coord_1",
+    "@type": ["nlx:coordinate", "http://nidm.nidash.org/units", "prov:Entity"],
+    "prov:label": "mm_mm_mm",
+    "prov:value": "[54, 36,-12]"
+  }, {
+    "@id": "spm:cluster_14",
+    "@type": ["prov:Entity", "nlx:p-value", "nlx:FWE"],
+    "prov:label": "cluster_level_FWEcorr_p",
+    "prov:value": 0.998,
+    "wasDerivedFrom": "spm:coord_4"
+  }, {
+    "@id": "spm:peak_12",
+    "@type": ["prov:Entity", "nlx:p-value", "nlx:FDR"],
+    "prov:label": "peak_level_FDRcorr_p",
+    "prov:value": 0.464,
+    "wasDerivedFrom": "spm:coord_2"
+  }, {
+    "@id": "spm:peak_24",
+    "@type": ["nlx:z-statistic", "prov:Entity", "nlx:peak-level"],
+    "prov:label": "peak_level_Z",
+    "prov:value": 3.29
+  }, {
+    "@id": "spm:peak_23",
+    "@type": ["nlx:peak-level", "prov:Entity", "nlx:t-statistic"],
+    "prov:label": "peak_level_T",
+    "prov:value": 3.3
+  }, {
+    "@id": "spm:peak_22",
+    "@type": ["nlx:FDR", "prov:Entity", "nlx:p-value"],
+    "prov:label": "peak_level_FDRcorr_p",
+    "prov:value": 0.904,
+    "wasDerivedFrom": "spm:coord_4"
+  }, {
+    "@id": "spm:peak_21",
+    "@type": ["nlx:FWE", "prov:Entity", "nlx:p-value"],
+    "prov:label": "peak_level_FWEcorr_p",
+    "prov:value": 0.997,
+    "wasDerivedFrom": "spm:coord_4"
+  }, {
+    "@id": "spm:peak_20",
+    "@type": ["nlx:uncorrected_p-value", "nlx:p-value", "prov:Entity"],
+    "prov:label": "peak_level_Uncorr_p",
+    "prov:value": 0.001
+  }, {
+    "@id": "spm:peak_17",
+    "@type": ["nlx:p-value", "prov:Entity", "nlx:FDR"],
+    "prov:label": "peak_level_FDRcorr_p",
+    "prov:value": 0.904,
+    "wasDerivedFrom": "spm:coord_3"
+  }, {
+    "@id": "spm:set_level_p_1",
+    "@type": ["prov:Entity", "nlx:p-value", "spm:set-level"],
+    "prov:label": "set_level_p",
+    "prov:value": 0.836,
+    "wasDerivedFrom": "spm:coord_0"
+  }, {
+    "@id": "spm:peak_18",
+    "@type": ["nlx:peak-level", "nlx:t-statistic", "prov:Entity"],
+    "prov:label": "peak_level_T",
+    "prov:value": 3.34
+  }, {
+    "@id": "spm:peak_19",
+    "@type": ["prov:Entity", "nlx:peak-level", "nlx:z-statistic"],
+    "prov:label": "peak_level_Z",
+    "prov:value": 3.33
+  }, {
+    "@id": "spm:cluster_8",
+    "@type": ["prov:Entity", "nlx:p-value", "nlx:FWE"],
+    "prov:label": "cluster_level_FWEcorr_p",
+    "prov:value": 0.145,
+    "wasDerivedFrom": "spm:coord_2"
+  }, {
+    "@id": "spm:cluster_9",
+    "@type": ["nlx:cluster-level", "nlx:VolumeInVoxels", "prov:Entity"],
+    "prov:label": "cluster_level_Ke",
+    "prov:value": "[]",
+    "wasDerivedFrom": "spm:coord_3"
+  }, {
+    "@id": "spm:cluster_7",
+    "@type": ["prov:Entity", "nlx:p-value", "nlx:uncorrected_p-value"],
+    "prov:label": "cluster_level_Uncorr_p",
+    "prov:value": 0.016,
+    "wasDerivedFrom": "spm:coord_2"
+  }, {
+    "@id": "spm:cluster_4",
+    "@type": ["nlx:uncorrected_p-value", "nlx:p-value", "prov:Entity"],
+    "prov:label": "cluster_level_Uncorr_p",
+    "prov:value": "",
+    "wasDerivedFrom": "spm:coord_1"
+  }, {
+    "@id": "spm:cluster_5",
+    "@type": ["nlx:FWE", "nlx:p-value", "prov:Entity"],
+    "prov:label": "cluster_level_FWEcorr_p",
+    "prov:value": "[]",
+    "wasDerivedFrom": "spm:coord_1"
+  }, {
+    "@id": "spm:cluster_6",
+    "@type": ["prov:Entity", "nlx:cluster-level", "nlx:VolumeInVoxels"],
+    "prov:label": "cluster_level_Ke",
+    "prov:value": 380,
+    "wasDerivedFrom": "spm:coord_2"
+  }, {
+    "@id": "spm:peak_11",
+    "@type": ["nlx:p-value", "prov:Entity", "nlx:FWE"],
+    "prov:label": "peak_level_FWEcorr_p",
+    "prov:value": 0.756,
+    "wasDerivedFrom": "spm:coord_2"
+  }, {
+    "@id": "spm:coordinates",
+    "@type": ["spm:mm_mm_mm", "prov:Entity", "prov:Collection"],
+    "hadMember": ["spm:coord_2", "spm:coord_3", "spm:coord_4", "spm:coord_0", "spm:coord_1"]
+  }, {
+    "@id": "spm:coord_2",
+    "@type": ["prov:Entity", "http://nidm.nidash.org/units", "nlx:coordinate"],
+    "prov:label": "mm_mm_mm",
+    "prov:value": "[-20, 52,32]"
+  }, {
+    "@id": "spm:cluster_2",
+    "@type": ["prov:Entity", "nlx:p-value", "nlx:FWE"],
+    "prov:label": "cluster_level_FWEcorr_p",
+    "prov:value": 0.831,
+    "wasDerivedFrom": "spm:coord_0"
+  }, {
+    "@id": "spm:cluster_1",
+    "@type": ["prov:Entity", "nlx:p-value", "nlx:uncorrected_p-value"],
+    "prov:label": "cluster_level_Uncorr_p",
+    "prov:value": 0.187,
+    "wasDerivedFrom": "spm:coord_0"
+  }, {
+    "@id": "spm:coord_4",
+    "@type": ["prov:Entity", "nlx:coordinate", "http://nidm.nidash.org/units"],
+    "prov:label": "mm_mm_mm",
+    "prov:value": "[38, 52,-30]"
+  }, {
+    "@id": "spm:set_level_collection",
+    "@type": ["spm:set-level", "prov:Entity", "prov:Collection"],
+    "hadMember": ["spm:set_level_c_0", "spm:set_level_p_1"]
+  }, {
+    "@id": "spm:peak_14",
+    "@type": ["nlx:peak-level", "nlx:z-statistic", "prov:Entity"],
+    "prov:label": "peak_level_Z",
+    "prov:value": 3.76
+  }, {
+    "@id": "spm:peak_13",
+    "@type": ["prov:Entity", "nlx:t-statistic", "nlx:peak-level"],
+    "prov:label": "peak_level_T",
+    "prov:value": 3.78
+  }, {
+    "@id": "spm:coord_0",
+    "@type": ["http://nidm.nidash.org/units", "nlx:coordinate", "prov:Entity"],
+    "prov:label": "mm_mm_mm",
+    "prov:value": "[48, 42,0]"
+  }, {
+    "@id": "spm:expected_clusters",
+    "@type": ["nlx:cluster", "prov:Entity", "spm:expected_clusters", "nlx:voxel"],
+    "prov:label": "Expected_number_of_clusters",
+    "prov:value": 9.51
+  }, {
+    "@id": "spm:expected_voxels",
+    "@type": ["prov:Entity", "nlx:voxel", "spm:expected_voxels", "nlx:VolumeInVoxels"],
+    "prov:label": "Expected_voxels_per_cluster",
+    "prov:value": 60.632
+  }, {
+    "@id": "spm:extent_threshold_collection",
+    "@type": ["prov:Entity", "spm:Extent_Threshold", "prov:Collection"],
+    "hadMember": ["spm:extent_threshold_param2", "spm:extent_threshold_param1"]
+  }, {
+    "@id": "spm:height_threshold_collection",
+    "@type": ["prov:Entity", "spm:Height_Threshold", "prov:Collection"],
+    "hadMember": ["spm:height_threshold_param1", "spm:height_threshold_param2"]
+  }, {
+    "@id": "spm:extent_threshold_param1",
+    "@type": ["spm:extent_threshold", "nlx:threhold", "prov:Entity", "nlx:voxel"],
+    "prov:label": "Extent Threshold",
+    "prov:value": 0
+  }, {
+    "@id": "spm:coord_3",
+    "@type": ["http://nidm.nidash.org/units", "prov:Entity", "nlx:coordinate"],
+    "prov:label": "mm_mm_mm",
+    "prov:value": "[54, 36,-12]"
+  }, {
+    "@id": "spm:cluster_level_stats",
+    "@type": ["spm:cluster-level", "prov:Collection", "prov:Entity"],
+    "hadMember": ["spm:cluster_6", "spm:cluster_13", "spm:cluster_1", "spm:cluster_0", "spm:cluster_3", "spm:cluster_7", "spm:cluster_11", "spm:cluster_14", "spm:cluster_5", "spm:cluster_10", "spm:cluster_8", "spm:cluster_9", "spm:cluster_12", "spm:cluster_2", "spm:cluster_4"]
+  }, {
+    "@id": "spm:height_threshold_param1",
+    "@type": ["spm:height_threshold", "nlx:t-statistic", "prov:Entity"],
+    "prov:label": "Height Threshold",
+    "prov:value": 3.1
+  }, {
+    "@id": "spm:height_threshold_param2",
+    "@type": ["nlx:p-value", "prov:Entity", "spm:height_threshold", "nlx:uncorrected_statistic"],
+    "prov:label": "Height_Threshold",
+    "prov:value": 0.001
+  }, {
+    "@id": "spm:cluster_0",
+    "@type": ["nlx:cluster-level", "prov:Entity", "nlx:VolumeInVoxels"],
+    "prov:label": "cluster_level_Ke",
+    "prov:value": 99,
+    "wasDerivedFrom": "spm:coord_0"
+  }, {
+    "@id": "spm:peak_10",
+    "@type": ["nlx:p-value", "nlx:uncorrected_p-value", "prov:Entity"],
+    "prov:label": "peak_level_Uncorr_p",
+    "prov:value": 0
+  }]
+}

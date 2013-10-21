@@ -1,0 +1,697 @@
+[{
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_9",
+  "@type": ["http://neurolex.org/wiki/Main_Page/z-statistic", "http://neurolex.org/wiki/Main_Page/peak-level", "http://www.w3.org/ns/prov#Entity"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "peak_level_Z"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 3.33
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/set_level_c_0",
+  "@type": ["http://www.fil.ion.ucl.ac.uk/spm/set-level", "http://neurolex.org/wiki/Main_Page/cluster", "http://www.w3.org/ns/prov#Entity"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "set_level_c"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 7
+  }],
+  "http://www.w3.org/ns/prov#wasDerivedFrom": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_0"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_15",
+  "@type": ["http://neurolex.org/wiki/Main_Page/p-value", "http://neurolex.org/wiki/Main_Page/uncorrected_p-value", "http://www.w3.org/ns/prov#Entity"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "peak_level_Uncorr_p"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 0
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/extent_threshold_param2",
+  "@type": ["http://neurolex.org/wiki/Main_Page/p-value", "http://www.w3.org/ns/prov#Entity", "http://www.fil.ion.ucl.ac.uk/spm/extent_threshold", "http://neurolex.org/wiki/Main_Page/uncorrected_statistic"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "Extent_Threshold"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 1
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_0",
+  "@type": ["http://neurolex.org/wiki/Main_Page/uncorrected_p-value", "http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/p-value"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "peak_level_Uncorr_p"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 0
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_1",
+  "@type": ["http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/p-value", "http://neurolex.org/wiki/Main_Page/FWE"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "peak_level_FWEcorr_p"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 0.728
+  }],
+  "http://www.w3.org/ns/prov#wasDerivedFrom": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_0"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_2",
+  "@type": ["http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/p-value", "http://neurolex.org/wiki/Main_Page/FDR"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "peak_level_FDRcorr_p"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 0.464
+  }],
+  "http://www.w3.org/ns/prov#wasDerivedFrom": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_0"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_3",
+  "@type": ["http://neurolex.org/wiki/Main_Page/peak-level", "http://neurolex.org/wiki/Main_Page/t-statistic", "http://www.w3.org/ns/prov#Entity"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "peak_level_T"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 3.8
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_4",
+  "@type": ["http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/peak-level", "http://neurolex.org/wiki/Main_Page/z-statistic"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "peak_level_Z"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 3.79
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_5",
+  "@type": ["http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/p-value", "http://neurolex.org/wiki/Main_Page/uncorrected_p-value"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "peak_level_Uncorr_p"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 0
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_6",
+  "@type": ["http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/FWE", "http://neurolex.org/wiki/Main_Page/p-value"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "peak_level_FWEcorr_p"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 0.994
+  }],
+  "http://www.w3.org/ns/prov#wasDerivedFrom": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_1"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_7",
+  "@type": ["http://neurolex.org/wiki/Main_Page/FDR", "http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/p-value"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "peak_level_FDRcorr_p"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 0.904
+  }],
+  "http://www.w3.org/ns/prov#wasDerivedFrom": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_1"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_8",
+  "@type": ["http://neurolex.org/wiki/Main_Page/peak-level", "http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/t-statistic"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "peak_level_T"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 3.34
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/spm_results_metadata",
+  "@type": ["http://www.fil.ion.ucl.ac.uk/spm/spm_results_metadata", "http://www.w3.org/ns/prov#Entity", "http://www.w3.org/ns/prov#Collection"],
+  "http://www.w3.org/ns/prov#hadMember": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/extent_threshold_collection"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/expected_voxels"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/height_threshold_collection"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/expected_clusters"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_3",
+  "@type": ["http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/cluster-level", "http://neurolex.org/wiki/Main_Page/VolumeInVoxels"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "cluster_level_Ke"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": "[]"
+  }],
+  "http://www.w3.org/ns/prov#wasDerivedFrom": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_1"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_level_stats",
+  "@type": ["http://www.fil.ion.ucl.ac.uk/spm/peak-level", "http://www.w3.org/ns/prov#Entity", "http://www.w3.org/ns/prov#Collection"],
+  "http://www.w3.org/ns/prov#hadMember": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_5"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_21"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_0"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_3"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_22"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_2"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_13"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_4"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_6"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_12"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_9"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_24"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_8"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_11"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_20"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_10"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_16"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_14"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_17"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_15"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_7"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_18"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_23"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_1"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_19"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_16",
+  "@type": ["http://neurolex.org/wiki/Main_Page/p-value", "http://neurolex.org/wiki/Main_Page/FWE", "http://www.w3.org/ns/prov#Entity"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "peak_level_FWEcorr_p"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 0.994
+  }],
+  "http://www.w3.org/ns/prov#wasDerivedFrom": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_3"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_12",
+  "@type": ["http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/cluster-level", "http://neurolex.org/wiki/Main_Page/VolumeInVoxels"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "cluster_level_Ke"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 12
+  }],
+  "http://www.w3.org/ns/prov#wasDerivedFrom": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_4"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_13",
+  "@type": ["http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/p-value", "http://neurolex.org/wiki/Main_Page/uncorrected_p-value"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "cluster_level_Uncorr_p"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 0.663
+  }],
+  "http://www.w3.org/ns/prov#wasDerivedFrom": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_4"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_10",
+  "@type": ["http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/p-value", "http://neurolex.org/wiki/Main_Page/uncorrected_p-value"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "cluster_level_Uncorr_p"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": "[]"
+  }],
+  "http://www.w3.org/ns/prov#wasDerivedFrom": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_3"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_11",
+  "@type": ["http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/p-value", "http://neurolex.org/wiki/Main_Page/FWE"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "cluster_level_FWEcorr_p"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": "[]"
+  }],
+  "http://www.w3.org/ns/prov#wasDerivedFrom": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_3"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_1",
+  "@type": ["http://neurolex.org/wiki/Main_Page/coordinate", "http://nidm.nidash.org/units", "http://www.w3.org/ns/prov#Entity"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "mm_mm_mm"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": "[54, 36,-12]"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_14",
+  "@type": ["http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/p-value", "http://neurolex.org/wiki/Main_Page/FWE"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "cluster_level_FWEcorr_p"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 0.998
+  }],
+  "http://www.w3.org/ns/prov#wasDerivedFrom": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_4"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_12",
+  "@type": ["http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/p-value", "http://neurolex.org/wiki/Main_Page/FDR"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "peak_level_FDRcorr_p"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 0.464
+  }],
+  "http://www.w3.org/ns/prov#wasDerivedFrom": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_2"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_24",
+  "@type": ["http://neurolex.org/wiki/Main_Page/z-statistic", "http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/peak-level"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "peak_level_Z"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 3.29
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_23",
+  "@type": ["http://neurolex.org/wiki/Main_Page/peak-level", "http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/t-statistic"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "peak_level_T"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 3.3
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_22",
+  "@type": ["http://neurolex.org/wiki/Main_Page/FDR", "http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/p-value"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "peak_level_FDRcorr_p"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 0.904
+  }],
+  "http://www.w3.org/ns/prov#wasDerivedFrom": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_4"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_21",
+  "@type": ["http://neurolex.org/wiki/Main_Page/FWE", "http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/p-value"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "peak_level_FWEcorr_p"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 0.997
+  }],
+  "http://www.w3.org/ns/prov#wasDerivedFrom": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_4"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_20",
+  "@type": ["http://neurolex.org/wiki/Main_Page/uncorrected_p-value", "http://neurolex.org/wiki/Main_Page/p-value", "http://www.w3.org/ns/prov#Entity"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "peak_level_Uncorr_p"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 0.001
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_17",
+  "@type": ["http://neurolex.org/wiki/Main_Page/p-value", "http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/FDR"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "peak_level_FDRcorr_p"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 0.904
+  }],
+  "http://www.w3.org/ns/prov#wasDerivedFrom": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_3"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/set_level_p_1",
+  "@type": ["http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/p-value", "http://www.fil.ion.ucl.ac.uk/spm/set-level"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "set_level_p"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 0.836
+  }],
+  "http://www.w3.org/ns/prov#wasDerivedFrom": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_0"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_18",
+  "@type": ["http://neurolex.org/wiki/Main_Page/peak-level", "http://neurolex.org/wiki/Main_Page/t-statistic", "http://www.w3.org/ns/prov#Entity"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "peak_level_T"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 3.34
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_19",
+  "@type": ["http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/peak-level", "http://neurolex.org/wiki/Main_Page/z-statistic"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "peak_level_Z"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 3.33
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_8",
+  "@type": ["http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/p-value", "http://neurolex.org/wiki/Main_Page/FWE"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "cluster_level_FWEcorr_p"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 0.145
+  }],
+  "http://www.w3.org/ns/prov#wasDerivedFrom": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_2"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_9",
+  "@type": ["http://neurolex.org/wiki/Main_Page/cluster-level", "http://neurolex.org/wiki/Main_Page/VolumeInVoxels", "http://www.w3.org/ns/prov#Entity"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "cluster_level_Ke"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": "[]"
+  }],
+  "http://www.w3.org/ns/prov#wasDerivedFrom": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_3"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_7",
+  "@type": ["http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/p-value", "http://neurolex.org/wiki/Main_Page/uncorrected_p-value"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "cluster_level_Uncorr_p"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 0.016
+  }],
+  "http://www.w3.org/ns/prov#wasDerivedFrom": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_2"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_4",
+  "@type": ["http://neurolex.org/wiki/Main_Page/uncorrected_p-value", "http://neurolex.org/wiki/Main_Page/p-value", "http://www.w3.org/ns/prov#Entity"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "cluster_level_Uncorr_p"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": ""
+  }],
+  "http://www.w3.org/ns/prov#wasDerivedFrom": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_1"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_5",
+  "@type": ["http://neurolex.org/wiki/Main_Page/FWE", "http://neurolex.org/wiki/Main_Page/p-value", "http://www.w3.org/ns/prov#Entity"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "cluster_level_FWEcorr_p"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": "[]"
+  }],
+  "http://www.w3.org/ns/prov#wasDerivedFrom": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_1"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_6",
+  "@type": ["http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/cluster-level", "http://neurolex.org/wiki/Main_Page/VolumeInVoxels"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "cluster_level_Ke"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 380
+  }],
+  "http://www.w3.org/ns/prov#wasDerivedFrom": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_2"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_11",
+  "@type": ["http://neurolex.org/wiki/Main_Page/p-value", "http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/FWE"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "peak_level_FWEcorr_p"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 0.756
+  }],
+  "http://www.w3.org/ns/prov#wasDerivedFrom": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_2"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/coordinates",
+  "@type": ["http://www.fil.ion.ucl.ac.uk/spm/mm_mm_mm", "http://www.w3.org/ns/prov#Entity", "http://www.w3.org/ns/prov#Collection"],
+  "http://www.w3.org/ns/prov#hadMember": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_2"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_3"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_4"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_0"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_1"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_2",
+  "@type": ["http://www.w3.org/ns/prov#Entity", "http://nidm.nidash.org/units", "http://neurolex.org/wiki/Main_Page/coordinate"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "mm_mm_mm"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": "[-20, 52,32]"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_2",
+  "@type": ["http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/p-value", "http://neurolex.org/wiki/Main_Page/FWE"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "cluster_level_FWEcorr_p"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 0.831
+  }],
+  "http://www.w3.org/ns/prov#wasDerivedFrom": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_0"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_1",
+  "@type": ["http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/p-value", "http://neurolex.org/wiki/Main_Page/uncorrected_p-value"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "cluster_level_Uncorr_p"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 0.187
+  }],
+  "http://www.w3.org/ns/prov#wasDerivedFrom": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_0"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_4",
+  "@type": ["http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/coordinate", "http://nidm.nidash.org/units"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "mm_mm_mm"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": "[38, 52,-30]"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/set_level_collection",
+  "@type": ["http://www.fil.ion.ucl.ac.uk/spm/set-level", "http://www.w3.org/ns/prov#Entity", "http://www.w3.org/ns/prov#Collection"],
+  "http://www.w3.org/ns/prov#hadMember": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/set_level_c_0"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/set_level_p_1"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_14",
+  "@type": ["http://neurolex.org/wiki/Main_Page/peak-level", "http://neurolex.org/wiki/Main_Page/z-statistic", "http://www.w3.org/ns/prov#Entity"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "peak_level_Z"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 3.76
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_13",
+  "@type": ["http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/t-statistic", "http://neurolex.org/wiki/Main_Page/peak-level"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "peak_level_T"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 3.78
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_0",
+  "@type": ["http://nidm.nidash.org/units", "http://neurolex.org/wiki/Main_Page/coordinate", "http://www.w3.org/ns/prov#Entity"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "mm_mm_mm"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": "[48, 42,0]"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/expected_clusters",
+  "@type": ["http://neurolex.org/wiki/Main_Page/cluster", "http://www.w3.org/ns/prov#Entity", "http://www.fil.ion.ucl.ac.uk/spm/expected_clusters", "http://neurolex.org/wiki/Main_Page/voxel"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "Expected_number_of_clusters"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 9.51
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/expected_voxels",
+  "@type": ["http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/voxel", "http://www.fil.ion.ucl.ac.uk/spm/expected_voxels", "http://neurolex.org/wiki/Main_Page/VolumeInVoxels"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "Expected_voxels_per_cluster"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 60.632
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/extent_threshold_collection",
+  "@type": ["http://www.w3.org/ns/prov#Entity", "http://www.fil.ion.ucl.ac.uk/spm/Extent_Threshold", "http://www.w3.org/ns/prov#Collection"],
+  "http://www.w3.org/ns/prov#hadMember": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/extent_threshold_param2"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/extent_threshold_param1"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/height_threshold_collection",
+  "@type": ["http://www.w3.org/ns/prov#Entity", "http://www.fil.ion.ucl.ac.uk/spm/Height_Threshold", "http://www.w3.org/ns/prov#Collection"],
+  "http://www.w3.org/ns/prov#hadMember": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/height_threshold_param1"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/height_threshold_param2"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/extent_threshold_param1",
+  "@type": ["http://www.fil.ion.ucl.ac.uk/spm/extent_threshold", "http://neurolex.org/wiki/Main_Page/threhold", "http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/voxel"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "Extent Threshold"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 0
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_3",
+  "@type": ["http://nidm.nidash.org/units", "http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/coordinate"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "mm_mm_mm"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": "[54, 36,-12]"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_level_stats",
+  "@type": ["http://www.fil.ion.ucl.ac.uk/spm/cluster-level", "http://www.w3.org/ns/prov#Collection", "http://www.w3.org/ns/prov#Entity"],
+  "http://www.w3.org/ns/prov#hadMember": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_6"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_13"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_1"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_0"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_3"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_7"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_11"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_14"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_5"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_10"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_8"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_9"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_12"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_2"
+  }, {
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_4"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/height_threshold_param1",
+  "@type": ["http://www.fil.ion.ucl.ac.uk/spm/height_threshold", "http://neurolex.org/wiki/Main_Page/t-statistic", "http://www.w3.org/ns/prov#Entity"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "Height Threshold"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 3.1
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/height_threshold_param2",
+  "@type": ["http://neurolex.org/wiki/Main_Page/p-value", "http://www.w3.org/ns/prov#Entity", "http://www.fil.ion.ucl.ac.uk/spm/height_threshold", "http://neurolex.org/wiki/Main_Page/uncorrected_statistic"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "Height_Threshold"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 0.001
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/cluster_0",
+  "@type": ["http://neurolex.org/wiki/Main_Page/cluster-level", "http://www.w3.org/ns/prov#Entity", "http://neurolex.org/wiki/Main_Page/VolumeInVoxels"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "cluster_level_Ke"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 99
+  }],
+  "http://www.w3.org/ns/prov#wasDerivedFrom": [{
+    "@id": "http://www.fil.ion.ucl.ac.uk/spm/coord_0"
+  }]
+}, {
+  "@id": "http://www.fil.ion.ucl.ac.uk/spm/peak_10",
+  "@type": ["http://neurolex.org/wiki/Main_Page/p-value", "http://neurolex.org/wiki/Main_Page/uncorrected_p-value", "http://www.w3.org/ns/prov#Entity"],
+  "http://www.w3.org/ns/prov#label": [{
+    "@value": "peak_level_Uncorr_p"
+  }],
+  "http://www.w3.org/ns/prov#value": [{
+    "@value": 0
+  }]
+}]

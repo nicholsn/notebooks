@@ -1,0 +1,9 @@
+{
+  "@context": {
+      "spm": "http://www.fil.ion.ucl.ac.uk/spm/",
+      "nlx": "http://neurolex.org/wiki/Main_Page/",
+      "prov": "http://www.w3.org/ns/prov#",
+      "hadMember": {"@id": "http://www.w3.org/ns/prov#hadMember", "@type": "@id"},
+      "wasDerivedFrom": {"@id": "http://www.w3.org/ns/prov#wasDerivedFrom", "@type": "@id"}
+   }
+}
